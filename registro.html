@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+    </style>
+        
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="./public/img/logo-color.png" alt="Shoes">
+        <nav>
+            <ul>
+                <li><a href="#">Todos os Produtos</a></li>
+                <li><a href="#">Coleções</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Faça parte do nosso time!</h2>
+            <form action="url" method="get">
+                <label for="nome">
+                    <span>Nome</span>
+                    <input id="nome" type="text" name="nome" placeholder="Digite seu nome aqui">
+                </label>
+                <label for="email">
+                    <span>Email</span>
+                    <input id="email" type="text" name="email" placeholder="Digite seu email aqui">
+                </label>
+
+                <label for="telefone">
+                    <span>Telefone</span>
+                    <input id="telefone" type="text" name="telefone" placeholder="Digite seu telefone aqui">
+                </label>
+
+                <label for="departamento">
+                    <span>Departamento</span>
+                    <select id="departamento" name="departamento" >
+                        <option selected disabled >Selecione um departamento</option>
+                        <optgroup label="Departamentos ótimos">
+                            <option value="prog">Programação</option>
+                            <option value="cien">Ciência de dados</option>
+                        </optgroup>
+                        <optgroup label="Departamentos mais ou menos">
+                            <option value="vend">Vendas</option>
+                            <option value="mark" >Marketing</option>
+                        </optgroup>
+                    </select>
+                </label>
+
+                <div>
+                    <h3>Disponibilidade</h3>
+                    <label>
+                        <input type="checkbox" name="disp_integral">
+                        <span>Integral (8h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="disp_meio">
+                        <span>Meio Período (4h)</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="freelancer">
+                        <span>Freelancer (burro de carga)</span>
+                    </label>
+                </div>
+
+                <div>
+                    <h3>Forma preferencial de contato</h3>
+                    <label>
+                        <input type="radio" value="whatsapp" name="formaDeContato">
+                        <span>Whatsapp</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="email" name="formaDeContato">
+                        <span>Email</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="telefone" name="formaDeContato">
+                        <span>Telefone</span>
+                    </label>
+                    <label>
+                        <input type="file" value="curriculo" name="arquivoCurriculo">
+                        <span>Arquivo PDF com seu currículo</span>
+                    </label>
+                </div>
+
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </section>
+        
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="Contatos">
+            <img src="./public/img/logo-white.png" alt="Shoes">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae, aspernatur porro sapiente quasi numquam distinctio libero corporis</p>
+        </section>
+        <section id="Links">
+            <article class="categorias">
+                <ul>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                </ul>
+            </article>
+            <article class="institucional">
+                <ul>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                    <li><a href="#">Lalala</a></li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
