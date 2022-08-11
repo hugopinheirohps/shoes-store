@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 * {
     box-sizing: border-box;
     font-family: 'Open Sans';
@@ -171,12 +170,6 @@ section.destaque{
 }
 
 
-
-
-
-
-
-
 form label input[type=checkbox]{
     display: none;
 }
@@ -191,4 +184,3 @@ form label input[type=checkbox]:checked+i{
     background-image: url(../img/checked.png);
     background-size: 5px 5px;
 }
->>>>>>> 75abee7c67d58bcd41ff9d1e28e84e9d4e2f4000
